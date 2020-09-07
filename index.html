@@ -55,12 +55,14 @@
         <div class="mySlides fade">
             <div id="schoolCont" class="content">
                 <h1 style="text-align: center;"><u>School Projects</u></h1>
-                <h5 style="text-align: center;">PLease contact me if you wish to see any private repository</h5>
+                <h5 style="text-align: center;">Please contact me if you wish to see any private repository</h5>
                 <p class="parContent">
-                    <b><u>CMPT 383 - Comparative programming languages</u></b><br> 
+                    <a href="https://github.com/cstankov/CMPT383"><b><u>CMPT 383 - Comparative programming languages</u></b></a>  
+                    <br> 
                     <b>Summer 2020</b><br><br>
                     
-                    Command line checkers game against a simple AI using Alpha-beta pruning and minimax search. 
+                    <b>Command line checkers game</b> <br> 
+                    Play against a simple AI using Alpha-beta pruning and minimax search via the command line. 
                     Python was used for player movements and input commands, c++ was used for the AI
                     and Java was used to display the board using a GUI. The Project was then deployed using vagrant 
                     and virtual box to allow the project to run on various systems. <br><br>
@@ -68,37 +70,50 @@
                     <b>Notable assignments</b><br>
                     Password cracking with the use of a rainbow table in Haskell <br>
                     Report on new Language - Julia <br>
-                    Simple block chain example using Golang <br><br>
+                    Simple block chain example using Golang <br><br><br>
 
-                    <b><u>CMPT 354 - Database Systems</u></b> <br>
+                    <a href="https://github.com/cstankov/CMPT354"><b><u>CMPT 354 - Database Systems</u></b></a> 
+                    <br>
                     <b>Summer 2020</b><br><br>
+                    python program to connect to a database and execute queries
+                    via ODBC. <br><br>
 
-                    <b><u>CMPT 310 - Artificial Intelligence Survey</u></b> <br>
+                    <a href="https://github.com/cstankov/CMPT310"><b><u>CMPT 310 - Artificial Intelligence Survey</u></b></a> 
+                    <br>
                     <b>Spring 2020</b><br><br>
 
-                    <b><u>CMPT 213 - Object Oriented design in Java</u></b> <br>
+                    <a href="https://github.com/cstankov/CMPT213"> <b><u>CMPT 213 - Object Oriented design in Java</u></b></a> 
+                    <br>
                     <b>Spring 2020</b><br><br>
 
-                    <b><u>CMPT 300 - Operating Systems I</u></b> <br>
+                    <a href="https://github.com/cstankov/CMPT300"><b><u>CMPT 300 - Operating Systems I</u></b></a> 
+                    <br>
                     <b>Fall 2019</b><br><br>
 
-                    <b><u>CMPT 295 - Introduction to Computer Systems</u></b> <br>
+                    <a href="https://github.com/cstankov/CMPT295"><b><u>CMPT 295 - Introduction to Computer Systems</u></b></a> 
+                    <br>
                     <b>Fall 2019</b><br><br>
 
-                    <b><u>CMPT 276 - Introduction to Software Engineering</u></b> <br>
+                    <a href="https://github.com/cstankov/CMPT276"><b><u>CMPT 276 - Introduction to Software Engineering</u></b></a> 
+                    <br>
                     <b>Fall 2019</b><br><br>
 
-                    <b><u>MSE 110 - Mechatronics Design I</u></b> <br>
+                    <a href="https://github.com/cstankov/MSE110"><b><u>MSE 110 - Mechatronics Design I</u></b></a> 
+                    <br>
                     <b>Summer 2019</b><br><br>
 
-                    <b><u>CMPT 225 - Data Structures and Programming</u></b> <br>
+                    <a href="https://github.com/cstankov/CMPT225"><b><u>CMPT 225 - Data Structures and Programming</u></b></a> 
+                    <br>
                     <b>Spring 2019</b><br><br>
 
-                    <b><u>CMPT 125/127 - Introduction to Computing Science and Programming II</u></b> <br>
+                    <a href="https://github.com/cstankov/CMPT125-127"><b><u>CMPT 125/127 - Introduction to Computing Science and Programming II</u></b></a> 
+                    <br>
                     <b>Fall 2018</b><br><br>
 
-                    <b><u>CMPT 120 - Introduction to Computing Science and Programming I</u></b> <br>
+                    <a href="https://github.com/cstankov/CMPT120"> <b><u>CMPT 120 - Introduction to Computing Science and Programming I</u></b></a>
+                    <br> 
                     <b>Summer 2018</b><br><br>
+                   
                 </p>
             </div>
         </div>
@@ -148,39 +163,7 @@
         
     </div>
 
-    <!-- https://www.w3schools.com/howto/howto_js_slideshow.asp -->
-    <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        
-        if (n > slides.length) {
-            slideIndex = 1
-        }    
-        
-        if (n < 1) {
-            slideIndex = slides.length
-        }
-        
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-        }
-        
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
-        }
-        </script>
+    <script type="text/javascript" src="website.js"></script>
         
 </body>
 </html>
